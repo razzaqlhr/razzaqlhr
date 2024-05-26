@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naila's Beauty House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff6f61;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        h1, h2 {
+            color: #ff6f61;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 0.5em;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Naila's Beauty House</h1>
+        <p>Empowering Women, One Fashion Statement at a Time</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Naila's Beauty House! We specialize in women's fashion, including clothes, shoes, and makeup. Our mission is to empower women by offering stylish and elegant items that make them feel confident and beautiful.</p>
+        </section>
+        <section id="products">
+            <h2>Our Products</h2>
+            <p>Explore our diverse range of products designed to cater to every woman's unique style and beauty needs. From chic clothing to the latest in makeup, we have everything you need to look and feel your best.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <!-- Replace the URLs with links to your Instagram images -->
+                <img src="https://via.placeholder.com/300" alt="Naila Beauty House Product 1">
+                <img src="https://via.placeholder.com/300" alt="Naila Beauty House Product 2">
+                <img src="https://via.placeholder.com/300" alt="Naila Beauty House Product 3">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Follow us on Instagram: <a href="https://www.instagram.com/naila_beauty_house" target="_blank">@naila_beauty_house</a></p>
+            <p>Email us at: <a href="mailto:contact@nailabeautyhouse.com">contact@nailabeautyhouse.com</a></p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Naila's Beauty House. All rights reserved.
+    </footer>
+</body>
+</html>
